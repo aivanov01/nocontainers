@@ -1,0 +1,24 @@
+﻿global using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
+global using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Events;
+global using Microsoft.eShopOnContainers.BuildingBlocks.IntegrationEventLogEF.Services;
+global using Microsoft.eShopOnContainers.BuildingBlocks.IntegrationEventLogEF.Utilities;
+global using Microsoft.eShopOnContainers.BuildingBlocks.IntegrationEventLogEF;
+global using Microsoft.eShopOnContainers.BuildingBlocks.EventBus;
+global using Microsoft.eShopOnContainers.BuildingBlocks.EventBusRabbitMQ;
+global using Microsoft.eShopOnContainers.BuildingBlocks.EventBusServiceBus;
+global using System;
+global using Microsoft.AspNetCore.Connections;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.Diagnostics.HealthChecks;
+global using Microsoft.Extensions.Options;
+global using Microsoft.OpenApi.Models;
+global using System.Data.Common;
+global using Autofac;
+global using Microsoft.Extensions.DependencyInjection;
+global using Autofac.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Logging;
+global using BuisnessCentral.Models;
+global using System.Net.Http;
+global using System.Threading.Tasks;
+
